@@ -1,0 +1,2 @@
+* What is it
+~amber-mode~ is an Emacs mode for the [[https://amber-lang.com][Amber]] language.
