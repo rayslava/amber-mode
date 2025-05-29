@@ -93,6 +93,7 @@
       ("\\$\\([^$\n]+\\)\\$" . font-lock-string-face)  ; Command syntax $...$
       ("\\(fun\\s-+\\)\\([a-zA-Z_][a-zA-Z0-9_]*\\)" (2 font-lock-function-name-face)) ; Function definitions
       ("\\(\"\\)\\([^\"]*\\)\\(\"\\)" 0 font-lock-string-face)                       ; String literals
+      ("\\`#!.*" . font-lock-comment-face)                                           ; Shebang lines at start of file
       )))
 
 ;; Syntax table
