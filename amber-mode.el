@@ -261,7 +261,7 @@ CHECKER and BUFFER denote the checker and buffer for which the errors are parsed
           (when (and file line column msg)
             (push (flycheck-error-new-at
                    line column 'error msg
-                   :checker checker
+                   :checker 'amber-check
                    :buffer buffer
                    :filename file)
                   errors)
