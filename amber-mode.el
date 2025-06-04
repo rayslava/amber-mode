@@ -5,7 +5,7 @@
 ;; Author: Slava Barinov
 ;; Maintainer: rayslava@gmail.com
 ;; Created: Wed May 28 14:26:29 2025 (+0900)
-;; Version: 0.1
+;; Version: 0.2
 ;; Package-Requires: ((emacs "25.1"))
 ;; URL: https://github.com/rayslava/amber-mode
 ;; Keywords: languages
